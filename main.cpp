@@ -14,7 +14,7 @@ class Sprite{
 		Coordinate TopCorner;
 		Coordinate BottomCorner;
 	
-	void move(Sprite Sprite,iint NewX, int NewY){
+	void move(Sprite Sprite,int NewX, int NewY){
 		Sprite.XCoordinate = NewX;
 		Sprite.YCoordinate = NewY;
 		Sprite.TopCorner.x += NewX;
